@@ -17,6 +17,8 @@ To create a new Hydrogen app, run:
 
 ```bash
 npm init @shopify/hydrogen
+
+yarn init @shopify/hydrogen
 ```
 
 ## Running the dev server
@@ -26,6 +28,9 @@ Then `cd` into the new directory and run:
 ```bash
 npm install
 npm run dev
+
+yarn
+yarn run dev
 ```
 
 Remember to update `hydrogen.config.js` with your shop's domain and Storefront API token!
@@ -34,6 +39,8 @@ Remember to update `hydrogen.config.js` with your shop's domain and Storefront A
 
 ```bash
 npm run build
+
+yarn run build
 ```
 
 ## Previewing a production build
@@ -43,4 +50,6 @@ To run a local preview of your Hydrogen app in an environment similar to Oxygen,
 ```bash
 npm run build
 npm run preview
+
+yarn run preview
 ```

@@ -51,5 +51,7 @@ To run a local preview of your Hydrogen app in an environment similar to Oxygen,
 npm run build
 npm run preview
 
-yarn run preview
+yarn run preview   
+
+start on https://localhost:3000/
 ```
